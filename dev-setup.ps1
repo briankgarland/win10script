@@ -29,3 +29,10 @@ gulp publish-ui
 
 npm config set `@sxa:registry https://sitecore.myget.org/F/sc-npm-packages/npm/
 npm i -g `@sxa/CLI
+
+# Run: docker ps --format '{{.ID}}  {{.Names}}'
+# Copy: docker exec -it ID powershell
+# Copy the ID for the CM container, paste in ID, run it.
+# Run: CD c:\inetpub\wwwroot\App_Config\Include\z.Feature.Overrides
+# Run: REN z.spe.sync.enabler.gulp.config.disabled z.spe.sync.enabler.gulp.config
+# Run: Exit
